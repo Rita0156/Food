@@ -1,0 +1,50 @@
+*{
+    font-family: Okra, Helvetica, sans-serif;
+}
+#img{
+    width: 100%;
+    
+}
+#bac{
+    width: 100%;
+    margin-top: 20px;
+    margin: 0%;
+    padding: 0px;
+}
+#ind{
+    width: 70%;
+    display: flex;
+    align-items: center;
+    margin: auto;
+    justify-content: space-around;
+    color: rgb(53, 52, 52);
+}
+#ind img{
+    width: 10%;
+}
+#infor{
+    width: 50%;
+    margin: auto;
+}
+#infor p{
+    color: gray;
+    font-size: 18px;
+}
+#city{
+    width:70% ;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    margin: auto;
+    gap: 15px;
+}
+#city div{
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    padding-left: 15px;
+}
+#city div h3{
+    text-align: left;
+    color: rgb(53, 52, 52);
+}
+#city div:hover{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
